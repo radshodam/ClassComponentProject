@@ -1,0 +1,61 @@
+.right {
+  /* background-color: #422241; */
+  background: 
+  linear-gradient( #ffffff12, rgb(255 255 255)),
+    /* bottom, image */ url("../../../img/one.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 59px;
+    border: none;
+    border-radius: 8%;
+    height: 100%;
+}
+.right > .Right__item{
+  font-size: 3em;
+    padding: 1vw;
+    text-align: center;
+    text-indent: inherit;
+
+}
+
+.up{
+
+  background: url('../../../img/sale.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border: none;
+    border-radius: 8%;
+    text-align: center;
+
+}
+.down{
+
+  background: url('../../../img/cloths.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border: none;
+    border-radius: 8%;
+    text-align: center;
+
+}
+.up__button{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f3d427d;
+  padding: 0px 24px;
+  color: #150202;
+  font-size: 21px;
+  font-weight: 800;
+  border: none;
+  text-shadow: -1px 1px 3px white;
+  letter-spacing: 6px;
+  border-radius: 6%;
+  transition: all;
+  box-shadow: 0px 0px 13px 1px #48c342;
+}

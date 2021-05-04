@@ -1,0 +1,34 @@
+.bg-randomRad{
+  background: 
+  linear-gradient( #ffffff00, rgb(255 255 255 / 0%)),
+    /* bottom, image */ url("./img/rand.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 59px;
+    border: none;
+    height: 100%;
+}
+.bg-randomRadTwo{
+  background: 
+ linear-gradient( #ffffffcc, rgb(255 255 255 / 0%)),  url("./img/rand.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7px;
+  border: none;
+  height: 100%;
+  border-radius: 12px;
+}
+.hpp{
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 350px;
+  min-height: 500px;
+  padding: 15px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background: #2196f3;
+}

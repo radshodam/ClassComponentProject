@@ -1,0 +1,48 @@
+.menuFlex {
+  display: flex;
+  list-style: none;
+  width: fit-content;
+  color: white;
+}
+
+.button {
+  display: none;
+  z-index: 22;
+
+}
+
+@media screen and (max-width: 808px) {
+  .menuFlex {
+    display: none;
+    list-style: none;
+    width: fit-content;
+  }
+  .menuFlexAdd {
+    background-color: #dbd8d7f5;
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    flex-direction: column;
+    padding: 34px;
+    margin: 9px;
+    border-radius: 2px;
+    font-weight: 900 !important;
+    z-index: 22;
+
+  }
+  .button {
+    display: flex;
+    background: 
+    linear-gradient( #00bcd4, rgb(222 95 95 / 95%));    border: none;
+    height: fit-content;
+    border-radius: 2px;
+    padding: 7px;
+    font-weight: 900;
+    z-index: 22;
+
+  }
+}
+
+.items {
+  padding: 25px;
+}

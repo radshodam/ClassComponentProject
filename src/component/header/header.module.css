@@ -1,0 +1,18 @@
+.header {
+  /* background-color: #422241; */
+  background: 
+  linear-gradient(
+    #00bcd4,
+   rgb(255 255 255 / 95%)),
+    /* bottom, image */ url("../../img/logoRAD.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 25px;
+  height: 90px;
+  padding: 22px;
+}
